@@ -50,7 +50,7 @@ module.exports = function(data, client)
 
             // ignore bots
 
-            if (message.author.bot)
+            if (message)
             {
                return;
             }
